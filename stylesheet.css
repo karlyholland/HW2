@@ -1,6 +1,7 @@
 body 	{
 	     color: purple;
 	     background-color: black;
+		 background-image: url(./bgimg.jpg);
 	     font-size: 10pt;
 	     font-family: Verdana; Geneva, Arial, Helvetica, sans-serif;  
 	}
