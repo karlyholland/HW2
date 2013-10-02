@@ -1,22 +1,26 @@
 body 	{
-	     color: purple;
+	     color: grey;
 	     background-color: black;
-		 background-image: url(./bgimg.jpg);
 	     font-size: 10pt;
-	     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  
+	     font-family: Tahoma, Arial, Helvetica, sans-serif;  
 	}
 		
 div 	{background-color: black;}
 		
-p 	{  color: purple; font-size: 10pt; }
+p 	{  color: grey; font-size: 10pt; }
+
+p.buttons {text-align:center;}
 
 h1.title {
 	font-size: 36pt;
 	font-weight: bold;
 	text-align:center;
 	margin-top: 15px;
-	margin-bottom: 0px; 
+	margin-bottom: 0px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	}
+	
+h2.subtitle	{color: white;}
 
 /* a { text-decoration:none; font-weight: bold; }
 a:link, a:visited { color: ; }	
@@ -45,9 +49,7 @@ a:hover.tag { color: #fff; background-color:#036; text-decoration: underline; } 
 
 #resume {background:#9c9; width:900px; margin:auto; padding:20px; text-align:left; }
 
-#lsidebar { float:left; padding:10px; }
-
-#rsidebar { background:#c9c; float:left; width:300px; padding:10px; }
+#lsidebar {float:left; padding:10px; }
 
 #footer { background:#cc9; clear:both; padding:5px 10px; }
 
@@ -56,12 +58,13 @@ a:hover.tag { color: #fff; background-color:#036; text-decoration: underline; } 
 /* Star hack for IE 6 bug */
 * html #footer { height:1px; }
 
-.polaroid {
-			border: solid 1px purple; 
-			background: black;
+.polaroid {	border: solid 1px black; 
+			background: white;
 			width: 250px;
-			padding: 15px;
-
+			padding: 20px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 10px;
+			margin-bottom: 20px;
 			text-align: center;
-			color: cyan;
-			}
+			color: purple			}
