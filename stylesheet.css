@@ -1,0 +1,12 @@
+body 	{
+	     color: purple;
+	     background-color: black;
+	     font-size: 10pt;
+	     font-family: Verdana; Geneva, Arial, Helvetica, sans-serif;  
+	}
+		
+div 	{background-color: black;}
+		
+p 	{  color: purple; font-size: 10pt; }
+		
+h1 	{  font-weight:bold; }
